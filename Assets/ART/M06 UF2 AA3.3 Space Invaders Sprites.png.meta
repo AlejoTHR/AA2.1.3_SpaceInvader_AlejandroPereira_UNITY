@@ -1,0 +1,985 @@
+fileFormatVersion: 2
+guid: c8dfe2994a25835429604c6a3fe8f923
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 932386412349727666
+    second: M06 UF2 AA3.3 Space Invaders Sprites_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3a185808080fc00800000000000000
+      internalID: 932386412349727666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d337d621b83869b4095a711e04659eb0
+      internalID: -281452686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 119
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8647eb1a3bf1ce345bb8948ad2e27416
+      internalID: -698995665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290ef677ffda89a448ff89256c730e6b
+      internalID: 1838444503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 119
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc99d8834d33544be96de529bee762
+      internalID: 593001889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 109
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ed2737bfe4ef438cc95f683a6253e
+      internalID: -1469208989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 119
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca2c89fe7ec65488019164e9649797
+      internalID: -250844761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf1b764d10fe7c4b890af499c083bf9
+      internalID: -1229712268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf177ef08b70084eb773a11c6743ca8
+      internalID: -235893332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b0fe446c0165f448dfdf0ef9701914
+      internalID: 1767258538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda7a7afebecbcf4ca9c4289161dfb1e
+      internalID: 649025408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c1763ab8c2c8d43bafd6a91251f2da
+      internalID: 1978611517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee23c73657e5bd4cbf3a723a0ce6814
+      internalID: -1494757445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117f3d781992e184eb95b19a655ac35a
+      internalID: 2088095276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b4ae264cb8a224d8ccf493e9a576f2
+      internalID: 1304652359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dcbb3ef23c4fe4993eca25e83930e8
+      internalID: 660455280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40d8c5e17d451841a0d5d3ee00fdc61
+      internalID: -1521999275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8822a2965be75374d8973d6f90b4fd39
+      internalID: 803771693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 99
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589ddaaafbda1174db404391fe6f6db6
+      internalID: -198538512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 99
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf9ea48fc4474b4a8ed137bf7a1a234
+      internalID: -373615266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 71
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b86b53f23e23544d8ca33c4fd4b00e9
+      internalID: -707072605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f04a8c97ea54564e9f8a017b6b4d759
+      internalID: 1350973838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb754d9f649824488596842bc86bd3c
+      internalID: -202179174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a443145a518195a469e0f565993e5b62
+      internalID: 1940607680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeb31df30292e341adbea42dd65761c
+      internalID: 1509780236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a685d63638074283148079cda7a59
+      internalID: 1335680207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d67d899d73434bb2c94b0d8e07133
+      internalID: 144489980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5892565afd76d5a4a9d4565e0cbc22b4
+      internalID: 1178127916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f3021042d035545afd9b8be4d700f9
+      internalID: 1177183426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d736bee91e41354f834837c89c63481
+      internalID: -1478349156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff232e410509a4db48b228c1103f3b
+      internalID: -803120455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420ed7c8cd4e364fb823103642d5d6b
+      internalID: 1833466090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 93
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746aa218618c2442b6d7dc31961e7e4
+      internalID: 661189311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 93
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb853b13aa5cbd94fae6148f5b1876ea
+      internalID: 793711059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 93
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f303e99fb775b438ff7c3cc59e4efc
+      internalID: 1589240808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a159c1831e864c95d3abe327de5d6
+      internalID: -1019063064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M06 UF2 AA3.3 Space Invaders Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 71
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebd341c7c799fd409c4698133a0484c
+      internalID: -174602610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f847932c09c334e4b9924d1d9f79c6fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      M06 UF2 AA3.3 Space Invaders Sprites_0: 932386412349727666
+      M06 UF2 AA3.3 Space Invaders Sprites_1: -281452686
+      M06 UF2 AA3.3 Space Invaders Sprites_10: 649025408
+      M06 UF2 AA3.3 Space Invaders Sprites_11: 1978611517
+      M06 UF2 AA3.3 Space Invaders Sprites_12: -1494757445
+      M06 UF2 AA3.3 Space Invaders Sprites_13: 2088095276
+      M06 UF2 AA3.3 Space Invaders Sprites_14: 1304652359
+      M06 UF2 AA3.3 Space Invaders Sprites_15: 660455280
+      M06 UF2 AA3.3 Space Invaders Sprites_16: -1521999275
+      M06 UF2 AA3.3 Space Invaders Sprites_17: 803771693
+      M06 UF2 AA3.3 Space Invaders Sprites_18: -198538512
+      M06 UF2 AA3.3 Space Invaders Sprites_19: -373615266
+      M06 UF2 AA3.3 Space Invaders Sprites_2: -698995665
+      M06 UF2 AA3.3 Space Invaders Sprites_20: 1509780236
+      M06 UF2 AA3.3 Space Invaders Sprites_21: -707072605
+      M06 UF2 AA3.3 Space Invaders Sprites_22: 1350973838
+      M06 UF2 AA3.3 Space Invaders Sprites_23: -202179174
+      M06 UF2 AA3.3 Space Invaders Sprites_24: 1940607680
+      M06 UF2 AA3.3 Space Invaders Sprites_25: 1335680207
+      M06 UF2 AA3.3 Space Invaders Sprites_26: 144489980
+      M06 UF2 AA3.3 Space Invaders Sprites_27: 1178127916
+      M06 UF2 AA3.3 Space Invaders Sprites_28: 1177183426
+      M06 UF2 AA3.3 Space Invaders Sprites_29: -1478349156
+      M06 UF2 AA3.3 Space Invaders Sprites_3: 1838444503
+      M06 UF2 AA3.3 Space Invaders Sprites_30: -803120455
+      M06 UF2 AA3.3 Space Invaders Sprites_31: 1833466090
+      M06 UF2 AA3.3 Space Invaders Sprites_32: 661189311
+      M06 UF2 AA3.3 Space Invaders Sprites_33: 793711059
+      M06 UF2 AA3.3 Space Invaders Sprites_34: 1589240808
+      M06 UF2 AA3.3 Space Invaders Sprites_35: -1019063064
+      M06 UF2 AA3.3 Space Invaders Sprites_36: -174602610
+      M06 UF2 AA3.3 Space Invaders Sprites_37: -2094933603
+      M06 UF2 AA3.3 Space Invaders Sprites_4: 593001889
+      M06 UF2 AA3.3 Space Invaders Sprites_5: -1469208989
+      M06 UF2 AA3.3 Space Invaders Sprites_6: -250844761
+      M06 UF2 AA3.3 Space Invaders Sprites_7: -1229712268
+      M06 UF2 AA3.3 Space Invaders Sprites_8: -235893332
+      M06 UF2 AA3.3 Space Invaders Sprites_9: 1767258538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
