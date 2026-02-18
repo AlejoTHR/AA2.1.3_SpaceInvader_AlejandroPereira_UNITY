@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public int BulletOffsetSpanw;
     [Tooltip("AMMO GameObject")]
     public GameObject bullet;
-    
+
     // CUSTOM FUNCTION | READS PLAYER INPUT THROUGH UNITY'S INPUT SYSTEM
 
     private void Update()
@@ -28,9 +28,11 @@ public class PlayerController : MonoBehaviour
     }
     public void OnAttack(InputAction.CallbackContext context)
     {// ATTACKS
-        Vector3 OriginPosition = new Vector3(transform.position.x, transform.position.y + BulletOffsetSpanw);
-        GameObject newBullet = Instantiate(bullet, OriginPosition, transform.rotation);
-
+        if(context.performed)
+        {
+            Vector3 OriginPosition = new Vector3(transform.position.x, transform.position.y + BulletOffsetSpanw);
+            GameObject newBullet = Instantiate(bullet, OriginPosition, transform.rotation);
+        }
     }
 
 }

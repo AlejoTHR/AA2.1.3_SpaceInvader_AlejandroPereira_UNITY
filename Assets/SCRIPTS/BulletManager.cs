@@ -3,15 +3,15 @@ using UnityEngine;
 public class BulletManager : MonoBehaviour
 {
     private Rigidbody2D rb;
+
     [Tooltip("BULLET'S SPEED")]
     public float Speed = 10;
     // CHANGED IN THE ISPECTOR TO MATCH ENEMY BULLETS
-    public string tagColisioned = "Destroy";
     public bool PlayerBullet = true;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (PlayerBullet) rb.AddForce(transform.up * Speed);
@@ -20,18 +20,14 @@ public class BulletManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Destroy(gameObject, 1.5f);
+        if (CompareTag("Bullet"))
+        {
+            Destroy(gameObject, 1.5f);
+        }
     }
     public void OnTriggerEnter2D(Collider2D collided)
     {
-        // PLAYER BULLETS
-        if (collided.gameObject.CompareTag(tagColisioned))
-        {
-            Destroy(collided.gameObject);
-            Destroy(gameObject);
-        }
-        // ENEMY BULLETS
-        else if(collided.gameObject.CompareTag(tagColisioned))
+        if (collided.gameObject.CompareTag("Destroy") || collided.gameObject.CompareTag("Enemy") || collided.gameObject.CompareTag("Player"))
         {
             Destroy(collided.gameObject);
             Destroy(gameObject);
