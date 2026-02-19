@@ -12,6 +12,7 @@ TagManager:
   - Wall
   - Wall_Right
   - Wall_Left
+  - Shield
   layers:
   - Default
   - TransparentFX

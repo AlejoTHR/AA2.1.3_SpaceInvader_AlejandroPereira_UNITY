@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &5667122859185008738
 Rigidbody2D:
   serializedVersion: 5
@@ -279,6 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &1428613414129314149
 Rigidbody2D:
   serializedVersion: 5
@@ -455,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &1047215494598919359
 Rigidbody2D:
   serializedVersion: 5
@@ -539,7 +542,6 @@ GameObject:
   - component: {fileID: 8802523404550145327}
   - component: {fileID: 1064845184751590313}
   - component: {fileID: 7386255803198557702}
-  - component: {fileID: 1567112458932571733}
   m_Layer: 0
   m_Name: EnemyMover_
   m_TagString: Untagged
@@ -585,6 +587,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4149ded55436d314e9e533384931488c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Move: {x: 0, y: 0, z: 0}
+  COUNTmax: 0
+  Delay: 0
   aliens: []
 --- !u!50 &7386255803198557702
 Rigidbody2D:
@@ -613,52 +618,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1567112458932571733
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4174900818380209631}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &4736233531839249025
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &5549090617126063125
 Rigidbody2D:
   serializedVersion: 5
@@ -938,6 +898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &1792245826400410537
 Rigidbody2D:
   serializedVersion: 5
@@ -1114,6 +1075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &6877173380972021798
 Rigidbody2D:
   serializedVersion: 5
@@ -1290,6 +1252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &4346398985992348161
 Rigidbody2D:
   serializedVersion: 5
@@ -1466,6 +1429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &4622984856939266232
 Rigidbody2D:
   serializedVersion: 5
@@ -1642,6 +1606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &1596231642268590152
 Rigidbody2D:
   serializedVersion: 5
@@ -1818,6 +1783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &4580035716806296058
 Rigidbody2D:
   serializedVersion: 5
@@ -1994,6 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1064845184751590313}
+  WALL: {fileID: 0}
 --- !u!50 &7222853730686381757
 Rigidbody2D:
   serializedVersion: 5

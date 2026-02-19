@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &3224445595614999033
 Rigidbody2D:
   serializedVersion: 5
@@ -160,7 +161,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -279,6 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &4975615490524233235
 Rigidbody2D:
   serializedVersion: 5
@@ -336,7 +338,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -455,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &6761011005147905956
 Rigidbody2D:
   serializedVersion: 5
@@ -512,7 +515,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -631,6 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &489401443732363191
 Rigidbody2D:
   serializedVersion: 5
@@ -688,7 +692,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -807,6 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &1833238912429911051
 Rigidbody2D:
   serializedVersion: 5
@@ -864,7 +869,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -983,6 +988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &4620466849640220852
 Rigidbody2D:
   serializedVersion: 5
@@ -1040,7 +1046,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1159,6 +1165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &7071374347046714103
 Rigidbody2D:
   serializedVersion: 5
@@ -1216,7 +1223,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1335,6 +1342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &2004135815089832511
 Rigidbody2D:
   serializedVersion: 5
@@ -1392,7 +1400,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1511,6 +1519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &5630927926148950400
 Rigidbody2D:
   serializedVersion: 5
@@ -1568,7 +1577,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1687,6 +1696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &8853932821851150375
 Rigidbody2D:
   serializedVersion: 5
@@ -1744,7 +1754,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1771,7 +1781,6 @@ GameObject:
   - component: {fileID: 8304870047770990632}
   - component: {fileID: 1624390848989455065}
   - component: {fileID: 4174477461523127471}
-  - component: {fileID: 6810086018873243729}
   m_Layer: 0
   m_Name: EnemyMover_4
   m_TagString: Untagged
@@ -1817,6 +1826,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4149ded55436d314e9e533384931488c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Move: {x: 0, y: 0, z: 0}
+  COUNTmax: 0
+  Delay: 0
+  aliens: []
 --- !u!50 &4174477461523127471
 Rigidbody2D:
   serializedVersion: 5
@@ -1844,52 +1857,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6810086018873243729
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8810832401011100689}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &8851929823978871458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,6 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Manager: {fileID: 1624390848989455065}
+  WALL: {fileID: 0}
 --- !u!50 &4105265498205514628
 Rigidbody2D:
   serializedVersion: 5
@@ -2050,7 +2018,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

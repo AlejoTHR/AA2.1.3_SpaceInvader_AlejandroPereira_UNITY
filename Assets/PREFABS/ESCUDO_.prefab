@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5517228353860774195}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_26
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 18683791632796004}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_25
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,7 +308,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 3256204098192928266}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_30
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 8301530088113596774}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_35
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,7 +632,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 2106291746724645195}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_34
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -794,7 +794,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 4882728787411878211}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_27
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -999,7 +999,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1029,7 +1029,7 @@ GameObject:
   - component: {fileID: 6722133989461586210}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_32
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1161,7 +1161,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 6198976229700859380}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_33
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1323,7 +1323,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1353,7 +1353,7 @@ GameObject:
   - component: {fileID: 2205961066806147404}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_20
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1485,7 +1485,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1515,7 +1515,7 @@ GameObject:
   - component: {fileID: 3905692249848369221}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_31
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1647,7 +1647,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1677,7 +1677,7 @@ GameObject:
   - component: {fileID: 3517686936059200161}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_29
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1809,7 +1809,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 1808571003735419807}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_28
-  m_TagString: Destroy
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1971,7 +1971,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

@@ -3,14 +3,11 @@ using UnityEngine;
 public class BulletManager : MonoBehaviour
 {
     private Rigidbody2D rb;
-
     [Tooltip("BULLET'S SPEED")]
     public float Speed = 10;
     // CHANGED IN THE ISPECTOR TO MATCH ENEMY BULLETS
     public bool PlayerBullet = true;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,18 +23,11 @@ public class BulletManager : MonoBehaviour
             Destroy(gameObject, 1.5f);
         }
     }
+
     public void OnTriggerEnter2D(Collider2D collided)
     {
-
         Destroy(collided.gameObject);
         Destroy(gameObject);
-        
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

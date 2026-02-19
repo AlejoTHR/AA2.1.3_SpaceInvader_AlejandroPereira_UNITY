@@ -1,11 +1,8 @@
 using System.Collections.Generic;
-using TreeEditor;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-
-
     [Header("Aliens Movement")]
     public Vector3 Move;
 
@@ -15,7 +12,6 @@ public class EnemyManager : MonoBehaviour
 
     [Header("Aliens in List")]
     public List<EnemyController> aliens;
-
 
     private void Start()
     {
@@ -33,11 +29,7 @@ public class EnemyManager : MonoBehaviour
             Debug.Log(Time.time);
             COUNT = 0;
         }
-
     }
-
-    
-
 
 
 }
