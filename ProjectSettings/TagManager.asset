@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Destroy
-  - Wall
+  - Wall_WALL
   - Enemy
   - Bullet
+  - Undefined
+  - Wall
+  - Wall_Right
+  - Wall_Left
   layers:
   - Default
   - TransparentFX

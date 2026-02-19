@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {// PICKS THE DIRECTION
+        
         Direction = context.ReadValue<Vector2>();
     }
     public void OnAttack(InputAction.CallbackContext context)

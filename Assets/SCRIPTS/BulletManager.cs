@@ -14,6 +14,7 @@ public class BulletManager : MonoBehaviour
     public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
         if (PlayerBullet) rb.AddForce(transform.up * Speed);
         else rb.AddForce((transform.up * -1) * Speed);
     }
@@ -27,11 +28,10 @@ public class BulletManager : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collided)
     {
-        if (collided.gameObject.CompareTag("Destroy") || collided.gameObject.CompareTag("Enemy") || collided.gameObject.CompareTag("Player"))
-        {
-            Destroy(collided.gameObject);
-            Destroy(gameObject);
-        }
+
+        Destroy(collided.gameObject);
+        Destroy(gameObject);
+        
 
     }
 
