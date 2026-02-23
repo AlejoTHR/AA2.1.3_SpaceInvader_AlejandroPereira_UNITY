@@ -1,22 +1,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManager : MonoBehaviour
+public class RowManager : MonoBehaviour
 {
+    public ARMYmanager ARMY_manager;
+
     [Header("Aliens Movement")]
     public Vector3 Move;
 
-    private int COUNT;
+    public int COUNT;
     public int COUNTmax;
     public int Delay;
 
     [Header("Aliens in List")]
-    public List<EnemyController> aliens;
+    public List<EnemyMovement> aliens;
 
     private void Start()
     {
-        Move.x = 1;
-        Move.y = 0;
+
+        Move = new Vector3(1, 0);
         COUNT -= Delay;
     }
 
@@ -26,7 +28,6 @@ public class EnemyManager : MonoBehaviour
         if (COUNT > COUNTmax)
         {
             transform.position += Move;
-            Debug.Log(Time.time);
             COUNT = 0;
         }
     }
