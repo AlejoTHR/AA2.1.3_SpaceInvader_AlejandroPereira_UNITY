@@ -26,15 +26,15 @@ public class BulletManager : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collided)
     {
-        if(PlayerBullet && !collided.gameObject.CompareTag("Player") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right") && !collided.gameObject.CompareTag("GAMEOVER"))
+        if(PlayerBullet && !collided.gameObject.CompareTag("Player") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right") )
         { // IS ALLY BULLET AND DOESNT TOUCHES PLAYR NEITHER WALLS
             Destroy(collided.gameObject);
             Destroy(gameObject);
         }
-        else if(!PlayerBullet && !collided.gameObject.CompareTag("Enemy") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right") && !collided.gameObject.CompareTag("GAMEOVER"))
+        else if(!PlayerBullet && !collided.gameObject.CompareTag("Enemy") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right"))
         { // IS ENEMY BULLETS AND DOEST TOUCHES ENEMY OR WALLS
            
-            collided.gameObject.SetActive(false);
+            Destroy(collided.gameObject);
             Destroy(gameObject);
         }
 

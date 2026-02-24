@@ -24,8 +24,6 @@ public class GAME_MANAGER : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 1f;
-
-
         UImanager.GAMEOVER.gameObject.SetActive(false);
         UImanager.Restart.gameObject.SetActive(false);
         UImanager.Restart_text.gameObject.SetActive(false);
@@ -34,12 +32,6 @@ public class GAME_MANAGER : MonoBehaviour
     private void FixedUpdate()
     {
         GAMEOVER();
-    }
-
-    public void PlayerHurt()
-    {
-        UImanager.LIVES[LIVES - 1].gameObject.SetActive(true);
-        LIVES--;
     }
 
     public void GAMEOVER()
@@ -51,6 +43,7 @@ public class GAME_MANAGER : MonoBehaviour
             UImanager.GAMEOVER.gameObject.SetActive(true);
             UImanager.Restart.gameObject.SetActive(true);
             UImanager.Restart_text.gameObject.SetActive(true);
+            Player_Controller.gameObject.SetActive(false);
         }  
     }
 

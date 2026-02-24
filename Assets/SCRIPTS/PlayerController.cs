@@ -28,10 +28,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
-        gameObject.SetActive(true);
+        gameObject.SetActive(false);
         Vector3 Origin = new Vector3(0, -9);
         transform.position = Origin;
-        GAME_manager.PlayerHurt();
     }
 
 
