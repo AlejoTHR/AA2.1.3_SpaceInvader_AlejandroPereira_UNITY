@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9209023166589416160}
   - component: {fileID: 2636209956371461530}
   - component: {fileID: 5517228353860774195}
+  - component: {fileID: 3313450921466163744}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_26
   m_TagString: Shield
@@ -162,6 +163,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7244539, y: 0.49084616}
   m_EdgeRadius: 0
+--- !u!114 &3313450921466163744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224147296654346735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1226270089985949938
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,6 +187,7 @@ GameObject:
   - component: {fileID: 7721960548775931059}
   - component: {fileID: 4600961965516732630}
   - component: {fileID: 18683791632796004}
+  - component: {fileID: 8510393230135598853}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_25
   m_TagString: Shield
@@ -324,6 +338,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7212343, y: 0.49084616}
   m_EdgeRadius: 0
+--- !u!114 &8510393230135598853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226270089985949938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1261892772229659753
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +362,7 @@ GameObject:
   - component: {fileID: 7779941122014026968}
   - component: {fileID: 3677234476820363740}
   - component: {fileID: 3256204098192928266}
+  - component: {fileID: 6515290704054111659}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_30
   m_TagString: Shield
@@ -486,6 +513,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.74735165, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &6515290704054111659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261892772229659753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1934310880696062073
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +537,7 @@ GameObject:
   - component: {fileID: 6588188350971014506}
   - component: {fileID: 2193986668857226317}
   - component: {fileID: 8301530088113596774}
+  - component: {fileID: 6937648406142516885}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_35
   m_TagString: Shield
@@ -648,6 +688,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.4756341, y: 0.38360214}
   m_EdgeRadius: 0
+--- !u!114 &6937648406142516885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934310880696062073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143584328707048635
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +712,7 @@ GameObject:
   - component: {fileID: 5941318200467461061}
   - component: {fileID: 5116138932861133664}
   - component: {fileID: 2106291746724645195}
+  - component: {fileID: 13726764604776528}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_34
   m_TagString: Shield
@@ -810,6 +863,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.71474934, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &13726764604776528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143584328707048635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3576704798478240274
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +930,7 @@ GameObject:
   - component: {fileID: 5226734556588143956}
   - component: {fileID: 163071425404646286}
   - component: {fileID: 4882728787411878211}
+  - component: {fileID: 7167770648358667568}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_27
   m_TagString: Shield
@@ -1015,6 +1081,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6169739, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &7167770648358667568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4235160411777615657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4796850505992245411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,6 +1105,7 @@ GameObject:
   - component: {fileID: 7224303481942975134}
   - component: {fileID: 6129055275836713128}
   - component: {fileID: 6722133989461586210}
+  - component: {fileID: 7947053511567074023}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_32
   m_TagString: Shield
@@ -1177,6 +1256,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.46514606, y: 0.38360214}
   m_EdgeRadius: 0
+--- !u!114 &7947053511567074023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4796850505992245411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6029734377231135358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1280,7 @@ GameObject:
   - component: {fileID: 5546248601580089620}
   - component: {fileID: 3980448708756480553}
   - component: {fileID: 6198976229700859380}
+  - component: {fileID: 3231215976678906416}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_33
   m_TagString: Shield
@@ -1339,6 +1431,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.70640755, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &3231215976678906416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6029734377231135358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6242297219218764643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,6 +1455,7 @@ GameObject:
   - component: {fileID: 7444619521750239201}
   - component: {fileID: 2714367182500535866}
   - component: {fileID: 2205961066806147404}
+  - component: {fileID: 4495390490562229106}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_20
   m_TagString: Shield
@@ -1501,6 +1606,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.58649826, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &4495390490562229106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242297219218764643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6714191810841957857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,6 +1630,7 @@ GameObject:
   - component: {fileID: 4751148746466623517}
   - component: {fileID: 6014288257670355188}
   - component: {fileID: 3905692249848369221}
+  - component: {fileID: 4275355422574880997}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_31
   m_TagString: Shield
@@ -1663,6 +1781,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6517925, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &4275355422574880997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714191810841957857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8628569985163882756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1805,7 @@ GameObject:
   - component: {fileID: 5160119499419612926}
   - component: {fileID: 6928002122942129264}
   - component: {fileID: 3517686936059200161}
+  - component: {fileID: 8362933011725261495}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_29
   m_TagString: Shield
@@ -1825,6 +1956,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7464638, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &8362933011725261495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628569985163882756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8763434320601556088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,6 +1980,7 @@ GameObject:
   - component: {fileID: 7389647631793285651}
   - component: {fileID: 8739794904294241598}
   - component: {fileID: 1808571003735419807}
+  - component: {fileID: 7969140621926876077}
   m_Layer: 0
   m_Name: M06 UF2 AA3.3 Space Invaders Sprites_28
   m_TagString: Shield
@@ -1987,3 +2131,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6268158, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &7969140621926876077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8763434320601556088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea12c9e59568e4eabe92a6ee7d0865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

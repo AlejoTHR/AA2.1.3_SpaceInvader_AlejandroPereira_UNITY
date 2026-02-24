@@ -13,6 +13,8 @@ TagManager:
   - Wall_Right
   - Wall_Left
   - Shield
+  - GameOver
+  - ROW
   layers:
   - Default
   - TransparentFX

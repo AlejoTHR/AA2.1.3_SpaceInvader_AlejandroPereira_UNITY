@@ -4,47 +4,47 @@ using UnityEngine.UIElements;
 
 public class EnemyMovement : MonoBehaviour
 {
-
-    [Header("DEBUG WALL COLLIDED DETECTED")]
-    public GameObject WALL;
-
-
-    [Header("ROW MANAGER")]
-    public RowManager Row_Manager;
     [Header("ARMY MANAGER")]
     public ARMYmanager Army_Manager;
     
 
+    [Header("VALUE")]
+    public int VALUE;
 
-    [Header("TIMERS")]
-    public bool WALLED = false;
-
-    void Start()
+    void Awake()
     {// GETS ALIEN GAME OBJECT
-        Row_Manager.aliens.Add(this);
         Army_Manager.aliens_army.Add(this);
-
     }
 
     private void OnDisable()
     {// REMOVES ALIEN GAME OBJECT
-        Row_Manager.aliens.Remove(this);
-        Army_Manager.aliens_army.Remove(this);
+        AliensDeath();
     }
 
-    private void OnTriggerEnter2D(Collider2D wall)
+    private void OnTriggerEnter2D(Collider2D Collided)
     {
-        WALL = wall.gameObject;
-
-        if(wall.gameObject.CompareTag("Wall"))
-        {
-            WALLED = true;
-
+        if(Collided.gameObject.CompareTag("Wall_Right") && Army_Manager._goingRight)
+        { // IF INDIVIDUAL ALIEN COLLIDED WITH RIGHT WALL AND IS GOING RIGHT
+            Army_Manager.ChangeDirection();
         }
-        else WALLED = false;
-
+        else if (Collided.gameObject.CompareTag("Wall_Left") && !Army_Manager._goingRight)
+        { // IF INDIVIDUAL ALIEN COLLIDED WITH LEFT WALL AND IS NOT GOING RIGHT
+            Army_Manager.ChangeDirection();
+        }
+        else if(Collided.gameObject.CompareTag("Shield"))
+        { // ALIENS DESTROY SHIELDS
+            Destroy(Collided.gameObject);
+        }
 
     }
+
+    public void AliensDeath()
+    {
+        Army_Manager.aliens_army.Remove(this); // ALIENS LIST GETS DOWN 1
+        Army_Manager.Accelerate(); // SEE ARMY MANAGER
+        Army_Manager.ARMY_SCORE += VALUE; // ADDS ALIEN VALUE TO SCORE | SEE UI_MANAGER
+    }
+
 
 
 
