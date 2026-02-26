@@ -67,13 +67,14 @@ public class ARMYmanager : MonoBehaviour
 
     IEnumerator ChangeDirectionTIMER()
     {
-        for (int i = 0; i < ROWS_manager.Count; i++)
+        for (int i = ROWS_manager.Count - 1; i >= 0; i--)
         {// FOR EVERY ALIEN ROW THAT EXISTS
             ROWS_manager[i].Direction *= -1; // CHANGES DIRECTION VARIABLE FROM ROW MANAGER
 
             ROWS_manager[i].transform.position -= new Vector3(0, 1, 0); // GOES -Y BY 1 UNIT
 
             yield return new WaitForSeconds(wait); // WAITS TO MAKE THE ILUSIONS OF ASYNCRONY
+
         }
     }
     public void ChangeDirection()
@@ -85,7 +86,7 @@ public class ARMYmanager : MonoBehaviour
     public void Accelerate() // GETS CALLED IN ENEMY MOVEMENT
     {
 
-        for (int i = 0; i < ROWS_manager.Count; i++)
+        for (int i = ROWS_manager.Count - 1; i >= 0; i--)
         {// FOR EACH ROW, REDUCES MOVEMENT TIMER (Simulates Acceleration)
             ROWS_manager[i].COUNTmax -= MINUScount;
 

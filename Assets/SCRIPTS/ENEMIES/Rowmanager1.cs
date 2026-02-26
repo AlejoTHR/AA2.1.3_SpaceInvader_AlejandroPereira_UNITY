@@ -15,11 +15,6 @@ public class Rowmanager1 : MonoBehaviour
     public float COUNT;
     public float COUNTmax;
 
-    private void Awake()
-    {
-        AMY_manager.ROWS_manager.Add(this); // ADD THIS ROW TO ROW MANAGER LIST
-    }
-
     private void FixedUpdate()
     {
         RowMovement(); // SEE FUNCTION
