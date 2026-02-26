@@ -1,51 +1,80 @@
+using TreeEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     [Header("GAME:MANAAGER")]
-    public GAME_MANAGER GAME_manager;
+    public GameManager GAME_manager;
 
-    [Tooltip("PLAYER'S RIGIDBODY2D")]
+    [Header("PLAYER'S ATRIBUTES")]
     public Rigidbody2D rb;
-    
-    [Tooltip("DIRECTION VECTOR")]
+    public SpriteRenderer SprtRenderer;
+    public Collider2D cllder;
+    public PlayerInput plyrInpyt;
+
+    [Header("DIRECTION VECTOR")]
     public Vector2 Direction;
-    
-    [Tooltip("MOVEMENT SPEED'S VALUE")]
+    public Vector3 Origin;
+    public int ORIGINy = -9;
+
+    [Header("MOVEMENT SPEED'S VALUE")]
     public int Speed;
     public int BulletOffsetSpanw;
     
-    [Tooltip("AMMO GameObject")]
+    [Header("AMMO GameObject")]
     public GameObject bullet;
+    public BulletManager Bullet_Manager;
 
+    private void Awake()
+    {
+        // INITIALIZE PLAYER COMPONENTS 
+        plyrInpyt = GetComponent<PlayerInput>();
+        SprtRenderer = GetComponent<SpriteRenderer>();
+        cllder = GetComponent<Collider2D>();
+
+        // INITIALIZE ORIGIN VECTOR FOR LATER
+        Origin = new Vector3(0, ORIGINy);
+    }
     private void FixedUpdate()
     {
-        // MOVEMENT VECTOR that affects RB of the player
+        // MOVEMENT VECTOR, X AIS DEPENDES ON DIRECTION
         Vector3 move = new Vector3(Direction.x*Speed, transform.position.y, transform.position.z);
+
+        // RB MOVES AS VECTOR 3 MOVES
         rb.linearVelocity = move;
     }
 
-    private void OnDisable()
-    {
-        gameObject.SetActive(false);
-        Vector3 Origin = new Vector3(0, -9);
-        transform.position = Origin;
-    }
-
-
     public void OnMove(InputAction.CallbackContext context)
-    {// PICKS THE DIRECTION
+    {// PICKS THE DIRECTION BASED ON ACTION CONTEXT FROM UNITY ACTION SYSTEM (A/D IN THIS CASE)
         Direction = context.ReadValue<Vector2>();
     }
 
     public void OnAttack(InputAction.CallbackContext context)
-    {// ATTACKS
+    {// IF SPACE OR CLICK BASED ON ACTION CONTEXT FROM UNITY ACTION SYSTEM
         if(context.performed)
         {
-            Vector3 OriginPosition = new Vector3(transform.position.x, transform.position.y + BulletOffsetSpanw);
-            GameObject newBullet = Instantiate(bullet, OriginPosition, transform.rotation);
+            // BULLET ORIGIN POSITION
+            Vector3 BulletOriginPosition = new Vector3(transform.position.x, transform.position.y + BulletOffsetSpanw);
+            // CREATES GAME OBJECT BULLET WITH PREFAB AND ORIGIN VECTOR
+            GameObject newBullet = Instantiate(bullet, BulletOriginPosition, transform.rotation);
         }
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collided)
+    {
+        if(collided.gameObject.CompareTag("Bullet")) // IF IS TOUCHED BY ENEMY BULLET
+        {
+            transform.position = Origin; // MOVES THE PLAYER TO ORIGIN POSITION
+
+            GAME_manager.PlayerHurt(); // SEE GAME MNAGER
+
+            GAME_manager.StartCoroutine(GAME_manager.PlayerhurtBlink()); // SEE GAME MANAGER (MAAGES BLINK TIME WHEN HIT)
+        }
+
+
+
     }
 
 }

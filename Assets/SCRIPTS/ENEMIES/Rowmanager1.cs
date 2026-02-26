@@ -1,14 +1,13 @@
-using System.Collections.Generic;
-using NUnit.Framework;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Rowmanager1 : MonoBehaviour
 {
     [Header("GAME MANAGER")]
-    public GAME_MANAGER gameManager;
+    public GameManager Game_Manager;
 
-
+    [Header("ArmyManager")]
+    public ARMYmanager AMY_manager;
+    
     [Header("Changing Direction")]
     public int Direction;
 
@@ -16,9 +15,14 @@ public class Rowmanager1 : MonoBehaviour
     public float COUNT;
     public float COUNTmax;
 
+    private void Awake()
+    {
+        AMY_manager.ROWS_manager.Add(this); // ADD THIS ROW TO ROW MANAGER LIST
+    }
+
     private void FixedUpdate()
     {
-        RowMovement();
+        RowMovement(); // SEE FUNCTION
     }
 
     public void RowMovement()
@@ -29,15 +33,6 @@ public class Rowmanager1 : MonoBehaviour
             transform.position += Vector3.right * Direction; // MOVES THE WHOLE ROW
             COUNT = 0; // RESTARTS TIMER
         }
-    }
-
-    private void OnTriggerEnter(Collider collided)
-    {
-     if(collided.gameObject.CompareTag("GAMEOVER"))
-        {
-            gameManager.GAMEOVER();
-        }
-        
     }
 
 

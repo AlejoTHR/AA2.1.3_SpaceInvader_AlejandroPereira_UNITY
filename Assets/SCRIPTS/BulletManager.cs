@@ -3,11 +3,12 @@ using UnityEngine;
 public class BulletManager : MonoBehaviour
 {
     
-    [Tooltip("BULLET'S SPEED")]
+    [Header("BULLET'S ATRIBUTES")]
     private Rigidbody2D rb;
     public float Speed = 10;
     // CHANGED IN THE ISPECTOR TO MATCH ENEMY BULLETS
     public bool PlayerBullet = true;
+
 
     public void Awake()
     {
@@ -19,25 +20,29 @@ public class BulletManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (PlayerBullet) Destroy(gameObject, 1.5f); // LLY BULLETS DISSAPEAR
+        if (PlayerBullet) Destroy(gameObject, 1.5f); // ALLY BULLETS DISSAPEAR
         
         else Destroy(gameObject, 5); // ENEMY BULLETS DISSAPEAR
     }
 
     public void OnTriggerEnter2D(Collider2D collided)
     {
-        if(PlayerBullet && !collided.gameObject.CompareTag("Player") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right") )
-        { // IS ALLY BULLET AND DOESNT TOUCHES PLAYR NEITHER WALLS
+        if(PlayerBullet && collided.gameObject.CompareTag("Enemy") || collided.gameObject.CompareTag("Shield"))
+        { // IS ALLY BULLET AND TOUCHES AND ENEMY OR A WALL
             Destroy(collided.gameObject);
             Destroy(gameObject);
         }
-        else if(!PlayerBullet && !collided.gameObject.CompareTag("Enemy") && !collided.gameObject.CompareTag("Wall_Left") && !collided.gameObject.CompareTag("Wall_Right"))
-        { // IS ENEMY BULLETS AND DOEST TOUCHES ENEMY OR WALLS
+        else if(!PlayerBullet && collided.gameObject.CompareTag("Shield") )
+        { // IS ENEMY BULLETS AND TOUCHES THE SHIELDS
            
             Destroy(collided.gameObject);
             Destroy(gameObject);
         }
-
+        // PLAYER LOOSING CONDITION IN PLAYER SCRIPT
 
     }
+
+
+
+
 }
